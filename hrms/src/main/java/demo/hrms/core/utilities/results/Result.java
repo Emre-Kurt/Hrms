@@ -12,7 +12,7 @@ public class Result {
 	public Result(boolean success,String message)
 	{
 		this(success);
-		this.success=success;
+		this.message=message;
 	}
 	
 	public boolean isSuccess()
